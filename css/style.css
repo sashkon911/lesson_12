@@ -1,0 +1,165 @@
+.wrapper{
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+}
+body{
+    background-color: darkslategray;
+}
+.homework__container{
+    max-width: 100%;
+    padding: 40px;
+}
+.homework__translate-br{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(94, 255, 0);
+    margin-bottom: 100px;
+}
+.homework__translate{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    opacity: 0.6;
+    transform: translate(20%,20%);
+}
+.homework__translate:hover{
+    transform: translate(0);
+}
+.homework__scale-br{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(94, 255, 0);
+    margin-bottom: 100px;
+}
+.homework__scale{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    opacity: 0.6;
+    transform: scale(0.1);
+}
+.homework__scale:hover{
+    transform: scale(1);
+}
+.homework__rotate-br{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(94, 255, 0);
+    margin-bottom: 100px;
+}
+.homework__rotate{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    opacity: 0.6;
+    transform: rotate(50deg);
+}
+.homework__rotate:hover{
+    transform: rotate(0deg);
+}
+.homework__skew-br{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(94, 255, 0);
+    margin-bottom: 100px;
+}
+.homework__skew{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    opacity: 0.6;
+    transform: skew(20deg);
+}
+.homework__skew:hover{
+    transform: skew(0deg);
+}
+.homework__oll-br{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(94, 255, 0);
+    margin-bottom: 100px;
+}
+.homework__oll{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    opacity: 0.6;
+    transform: translate(20%, 20%) scale(0.5) rotate(30deg);
+}
+.homework__oll:hover{
+    transform: translate(0) scale(1) rotate(0deg);
+}
+.homework__origin-br{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(94, 255, 0);
+    margin-bottom: 100px;
+}
+.homework__origin{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    opacity: 0.6;
+    transform-origin: 0px 50px;
+    transform: rotate(30deg);
+}
+.homework__origin:hover{
+    transform-origin: center;
+    transform: rotate(0deg);
+}
+.homework__perspective-br{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(94, 255, 0);
+    margin-bottom: 100px;
+    perspective: 200px;
+	perspective-origin:center;
+}
+.homework__perspective{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    opacity: 0.6;
+    transform: rotateX(50deg);
+}
+.homework__perspective:hover{
+    transform: rotateX(0deg);
+}
+.homework__perspective-rotate-br{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(94, 255, 0);
+    margin-bottom: 100px;
+    perspective: 200px;
+	perspective-origin:center;
+}
+.homework__perspective-rotate{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    opacity: 0.6;
+    transform: rotate3d(12, 14, 20, 40deg);
+}
+.homework__perspective-rotate:hover{
+    transform: rotate3d(1, 1, 1, 0deg);
+}
+.homework__style-br{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(94, 255, 0);
+    margin-bottom: 100px;
+    perspective: 200px;
+    transform-style: preserve-3d;
+	opacity: 0.5;
+}
+.homework__style{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    opacity: 0.5;
+    transform: rotateY(30deg);
+}
+.homework__style:hover{
+    transform: rotateY(0deg);
+}
